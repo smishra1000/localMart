@@ -1,0 +1,183 @@
+
+Epic---- User mnagement 
+    1> Create login page --ui
+    2>create signup page --ui 
+    3>create link for login /register--UI
+    4>create user Dashboard page
+    3>Create login API --BE
+    4>Create Signup API --BE
+
+Epic Product Management---
+    1> list all products --UI
+    2>filter prodcuts by ctageory--UI
+    3>search products by name--UI
+    4>on click of products go to products details page--UI   
+    5>Get all products api 
+    6>Filter products api by ctageory
+    7>sarch products api 
+    8>get products details by id :API 
+
+
+
+Branching Strategy---    
+
+local-mart-fullstack
+    frontend
+    backend
+
+
+
+    Local Mart------Ecommerce based project
+Aim of project is to connect users with vendors/suppliers for natuarl products 
+
+
+Golas:
+
+Develop user friendly web app 
+enable the interaction between customer and vendors 
+provide access to products
+
+
+Success:
+1> User signup ,login
+2>search products and add to cart, order 
+3>listing of products,add edit delet by vendors
+
+
+
+
+1>list out all fetaures which we'll implement
+2>create story from those
+3>estimate it
+4>create sprint 1
+5>start sprint--
+
+
+
+
+<!-- 1> implement login functionality-------user management epic
+2>implement signup functionlity----user management epic
+3>after login implement dashbaord page
+4>create products page
+5>list all prodcuts with pagination,search category filter
+6>prodcut details page 
+7>add products edit products delete products
+8>forgaot password page-------------------user management
+9>Add to cart functionality
+10>remove item from cart
+11> checkout 
+12>Faq page
+
+implement login functionality-----UI-2 BE-2 Testing-1: 5 points -->
+
+// Infra setup--
+1> create backend / frontend application 
+2> Teachstack--- nodejs express mongodb
+3>Fe techstack----React js, redux,Tailwindcss,bootstrap
+
+
+
+
+Backend Stories
+User Authentication & Authorization
+
+Story: As a user, I want to be able to create an account so that I can access the platform.
+Story: As a user, I want to log in and log out of my account securely.
+Story: As a user, I want to reset my password if I forget it.
+Story: As an admin, I want to manage user roles (buyer, vendor) so that permissions are controlled.
+
+Vendor Management
+
+Story: As an admin, I want to approve or reject vendor registration requests.
+Story: As a vendor, I want to create and manage my profile, including contact information and business details.
+Story: As a vendor, I want to manage my product listings, including adding, editing, and removing products.
+Product Catalog
+
+Story: As a user, I want to browse a catalog of natural products categorized by type.
+Story: As a vendor, I want to manage my product inventory, including updating stock levels and prices.
+Story: As a user, I want to search for products by name, category, or vendor.
+Order Management
+
+Story: As a user, I want to add products to my cart and place an order.
+Story: As a vendor, I want to receive notifications of new orders and manage the fulfillment process.
+Story: As a user, I want to track the status of my orders.
+Story: As a user, I want to receive order confirmation and delivery updates via email.
+Payment Processing
+
+Story: As a user, I want to pay for my orders securely through various payment methods.
+Story: As a vendor, I want to receive payments and manage my earnings.
+Story: As an admin, I want to manage the platform's transaction fees and payouts to vendors.
+Review & Rating System
+
+Story: As a user, I want to leave a review and rating for a product I purchased.
+Story: As a vendor, I want to view and respond to reviews left on my products.
+Story: As a user, I want to see reviews and ratings of products before purchasing.
+Notification System
+
+Story: As a user, I want to receive notifications about order status, promotions, and important updates.
+Story: As a vendor, I want to receive notifications about new orders and customer inquiries.
+Admin Dashboard
+
+Story: As an admin, I want to monitor platform activity, including sales, user registrations, and vendor performance.
+Story: As an admin, I want to generate reports on sales, transactions, and platform usage.
+
+
+Frontend Stories
+
+User Registration & Login
+
+Story: As a user, I want a responsive and intuitive registration and login form.
+Story: As a user, I want to be able to reset my password through the frontend.
+Home Page
+
+Story: As a user, I want to see a homepage that highlights featured products, categories, and promotions.
+Story: As a user, I want to easily navigate to different sections of the site, such as product categories and vendor profiles.
+Product Listing & Search
+
+Story: As a user, I want to browse and filter products by category, price, and rating.
+Story: As a user, I want to search for products using a search bar with autocomplete functionality.
+Product Detail Page
+
+Story: As a user, I want to see detailed information about a product, including images, description, price, and reviews.
+Story: As a user, I want to add products to my cart from the product detail page.
+Cart & Checkout
+
+Story: As a user, I want to view the items in my cart, adjust quantities, and remove items.
+Story: As a user, I want to proceed to checkout, enter my shipping information, and complete payment.
+Order History & Tracking
+
+Story: As a user, I want to view my order history and track the status of my orders.
+Story: As a user, I want to receive a confirmation screen after placing an order, with an order summary and tracking link.
+Vendor Profile
+
+Story: As a user, I want to view vendor profiles, including their product offerings and contact information.
+Story: As a vendor, I want to edit my profile information through a user-friendly interface.
+Review & Rating
+
+Story: As a user, I want to leave a review and rating for a product I purchased directly from the product page.
+Story: As a user, I want to view reviews and ratings on product pages.
+User Account Management
+
+Story: As a user, I want to manage my account settings, including updating my profile, password, and email preferences.
+Admin Interface
+
+Story: As an admin, I want an intuitive dashboard to manage users, vendors, products, and orders.
+Story: As an admin, I want to access detailed reports and analytics on the platform’s performance.
+These stories can be further broken down into tasks and sub-tasks during the development process.
+
+
+
+
+1> create foldr structure for local-mart-fullstack 
+2>create login page----UI
+3>create signup page--UI
+4>create login api ---BE
+5creat signup api---BE
+6>after login go to dahboard page-- header bar with products link,cart link logout link
+
+
+
+
+
+
+
